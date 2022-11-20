@@ -28,7 +28,7 @@ formularioevento.addEventListener('submit', function (e) {
             console.log(response);
             if (response.status == 201){
                 alert("O seu evento foi criado com sucesso!");
-                location.href = "/soundgarden-front-main/admin.html";
+                location.href = "./admin.html";
             }
         }
     );
